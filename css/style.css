@@ -1,6 +1,5 @@
 /*---------------- FRESH ---------------*/
 .section1{
-    position:relative;
     background-color:rgba(255, 214, 69, 1);
     width:1440px;
     height:1024px;
@@ -8,9 +7,8 @@
 
 .section2{
     width:755px;
-    position:absolute;
-    left:342px;
-    top:10px;
+    margin-left:50px;  
+    margin-top:10px;
     flex-wrap: wrap;
     flex-flow:row;
     display:flex;
@@ -55,14 +53,4 @@
     font-style:normal;
     text-align:center;
     background-image: "img/limonada";
-}
-
-.limon1{
-    position: absolute;
-    width: 94px;
-    height: 78px;
-    left: 962px;
-    top: 474px;
-    transform: rotate(0deg);
-    z-index: 2;
 }
